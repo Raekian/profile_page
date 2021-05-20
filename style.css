@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    /* padding: 0px;
+    margin: 0px; */
+}
+
+.navbar {
+    height: 3em;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.profileHome {
+    color: white;
+    display: flex;
+    justify-self: flex-start;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: white;
+    margin: 1em;
+    align-content: center;
+}
+
+.links {
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 6em;
+}
+
+.signout {
+    /* background-color: khaki; */
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+}
+
+.myPro {
+    font-weight: bolder;
+}
+
+.btn {
+    font-family: 'Roboto';
+    color: white;
+    background-color: steelblue;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.columnOne {
+    height: 70vh;
+    width: 40vw;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: ; */
+    align-content: space-between;
+    /* justify-content: space-between; */
+    margin-right: 2em;
+}
+
+.pCard {
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-content: center; */
+    position: relative;
+    text-indent: 1em;
+    margin-bottom: 4em;
+}
+
+.blueBar {
+    height: 35%;
+    width: 40vw;
+    background-color: lightskyblue;
+}
+
+.subPCard {
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    text-indent: 1em;
+    margin-bottom: 40%;
+}
+
+.eduBar {
+    height: 4em;
+    width: 40vw;
+    background-color: rgb(41, 41, 41);
+}
+
+.columnTwo {
+    height: 55vh;
+    width: 20vw;
+    /* background-color: khaki; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.conRequests {
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+.reqBar {
+    height: 4em;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    /* position: relative; */
+    display: flex;
+    align-content: center;
+}
+
+.yourCon {
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* align-content: space-between; */
+}
+
+.yourConBar {
+    height: 4em;
+    width: 20vw;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+}
+
+.viewMore {
+    height: 3em;
+    width: 20vw;
+    border: 1px solid grey;
+    margin-top: 19.3em;
+    position: relative;
+}
+
+.viewLink {
+    text-decoration: underline;
+    color: blue;
+    margin-left: 2em;
+    position: absolute;
+    top: .8em;
+    left: -1em;
+}
+
+li  a:hover {
+    font-size: 1.2em;
+    color: skyblue;
+}
+
+.profileHome:hover {
+    font-size: 2.5em;
+    color: skyblue;
+}
+
+#circleBtn {
+    font-weight: bold;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#ovalBtn{
+    font-weight: bold;
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#proPic {
+    height: 30%;
+    border-radius: 50%;
+    border: 3px solid gray;
+    position: absolute;
+    left: 3.5em;
+    top: 3.5em;
+}
+
+#rightColumnTitles {
+    font-size: 1em;
+    /* position: relative */
+    /* right: 3em; */
+}
+
+.bioTwo {
+    /* postion: absolute;
+    left: 3em;
+    bottom 2em; */
+}
+
+.bioLineThree {
+
+}
+
+.bioLineFour {
+    position: absolute;
+    bottom: 5em;
+}
+
+.yourConImg {
+    border-radius: 50%;
+    height: 2em;
+    margin: 0 1em;
+
+}
+
+.conRequestContent {
+    height: 50%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.pCardInfo {
+    font-weight: bold;
+    height: 50%;
+    width: 70%;
+    line-height: 4px;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+.subpCardInfo {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.pCardIcons {
+    height: 1em;
+    margin-right: .5em;
+}
+
+#gear {
+    margin-left: 1em;
+}
+
+#editProfile {
+    text-decoration: underline;
+    color: blue;
+}
+
+#greyed {
+    color: grey;
+}
+
+#acceptCircle {
+height: 1.6em;
+position: absolute;
+top: 6.5em;
+left: 9em;
+}
+
+#closeCircle {
+    height: 1.6em;
+    position: absolute;
+    top: 6.5em;
+    left: 11em;
+}
+
+#acceptCircleTwo {
+    height: 1.6em;
+    position: absolute;
+    top: 10.5em;
+    left: 9em;
+    }
+
+    #closeCircleTwo {
+        height: 1.6em;
+        position: absolute;
+        top: 10.5em;
+        left: 11em;
+    }
+
+    .yourConContent {
+        height: 50%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+#acceptCircle:hover {
+    height: 1.8em;
+}
+
+#acceptCircleTwo:hover {
+    height: 1.8em;
+}
+
+#closeCircle:hover {
+    height: 1.8em;
+}
+
+#closeCircleTwo:hover {
+    height: 1.8em;
+}
